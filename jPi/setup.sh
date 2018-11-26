@@ -1,7 +1,7 @@
 sudo mv ~/jPi/interfaces.wifimode /etc/network
 sudo mv ~/jPi/interfaces.apmode /etc/network
 
-sudo mv ~/jPi/etc/dnsmasq
-sudo mv ~/jPi/etc/hostapd
+sudo mv ~/jPi/dnsmasq.conf /etc/dnsmasq.conf
+sudo mv ~/jPi/hostapd.conf /hostapd
 
-shdo echo "~/jPi/main.sh" >> /etc/profile
+sudo echo "~/jPi/main.sh" >> /etc/profile

@@ -1,6 +1,6 @@
 sleep 5
 
-ping -c5 google.com > /dev/null
+ping -c5 deu.ac.kr > /dev/null
 
 if [ $? -eq 0 ];
 then
