@@ -12,13 +12,12 @@ sudo apt-get install hostapd<br>
 sudo apt-get install python-bottle<br>
 
 위 패키지를 모두 설치한 후 jPi 디렉토리를 홈 디렉토리에 위치시킨다.<br>
-$cd ~<br>
-$ls |grep jPi<br>
-jPi<br><br>
+$cd raspberryPiAP<br>
+$cp -R jPi ~
 
 jPi 디렉토리 안에 있는 setup.sh 파일을 실행시킨다.<br>
-$cd jPi<br>
-$sh /setup.sh<br><br>
+$cd ~/jPi<br>
+$sh setup.sh<br><br>
 $echo "~/jPi/main.sh" >> /etc/profile<br>
 
 프로그램 흐름
