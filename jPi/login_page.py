@@ -1,17 +1,17 @@
 from bottle import get, post, request, run
 import subprocess
 
-@get('/login')
+@get('/')
 def login():
     return '''
-        <form action="/login" method="post">
+        <form action="/" method="post">
             SSID : <input name="ssid" type="text" />
             Password : <input name="passwd" type="text" />
             <input value="Connect" type="submit" />
         </form>
     '''
 
-@post('/login')
+@post('/')
 def do_login():
     ssid = request.forms.get('ssid')
     passwd = request.forms.get('passwd')
