@@ -4,7 +4,7 @@ setup.sh 파일의 테스트가 완전히 끝나지 않았기 때문에 작동�
 
 # 라즈베리파이를 외부입력장치 연결 없이 wifi에 연결할 수 있도록 도와주는 프로그램
 
-sudo apt-get update<br>
+sudo apt update<br>
 sudo apt-get upgrade<br>
 
 sudo apt-get install dnsmasq<br>
