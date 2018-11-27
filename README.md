@@ -18,10 +18,8 @@ jPi<br><br>
 
 jPi 디렉토리 안에 있는 setup.sh 파일을 실행시킨다.<br>
 $cd jPi<br>
-$chmod 755 setup.sh
-$sudo ./setup.sh<br><br>
-$echo "~/jPi/setup.sh" >> /etc/profile
-$echo "sudo hostapd /etc/hostapd/hostapd.conf" >> /etc/profile
+$sh /setup.sh<br><br>
+$echo "~/jPi/setup.sh" >> /etc/profile<br>
 
 프로그램 흐름
 1. 부팅과 동시에 네트워크 연결 상태를 확인한다.
