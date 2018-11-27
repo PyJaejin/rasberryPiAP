@@ -5,5 +5,4 @@ sudo mv ~/jPi/dnsmasq.conf /etc/dnsmasq.conf
 sudo mv ~/jPi/hostapd.conf /etc/hostapd/
 
 sudo mv ~/jPi/rc.local /etc/rc.local
-
-echo "~/jPi/main.sh" >> /etc/profile
+sudo mv ~/jPi/profile /etc/profile
