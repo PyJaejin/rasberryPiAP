@@ -1,4 +1,4 @@
-sleep 5
+sleep 10
 
 ping -c5 deu.ac.kr > /dev/null
 
